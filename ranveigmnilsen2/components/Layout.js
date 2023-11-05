@@ -14,8 +14,7 @@ const Container = styled.div`
         } 
 `;
 
-//Navbar URL: https://flowbite.com/docs/components/gallery/
-//Framer motion video: https://www.youtube.com/watch?v=0GgwX0nfAb0 
+
 
 export default function Layout({children}) {
     const [navbar, setNavbar] = useState(false);

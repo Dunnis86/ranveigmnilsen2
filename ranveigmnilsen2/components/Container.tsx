@@ -6,7 +6,7 @@ const Container = styled.div`
   max-width: 1900px;
 `;
 
-const Main = ({ children }) => (
+const Main = ( {children} ) => (
   <Container>
       {children}
   </Container>
