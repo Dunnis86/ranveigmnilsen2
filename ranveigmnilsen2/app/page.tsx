@@ -1,6 +1,3 @@
-
-"use client"
-import Container from '../components/Container';
 import GalleryGrid from '../components/GalleryGrid';
 import Navbar from '../components/Navbar';
 import Link from 'next/link';
@@ -12,8 +9,8 @@ export default async function Home () {
 
   return (
     <div>
-      <Navbar/>
-      <GalleryGrid/>
+      <Navbar />
+      <GalleryGrid gallery={gallery}/>
     </div>
   )
 }
